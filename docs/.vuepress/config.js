@@ -13,6 +13,7 @@ module.exports = {
             link: '/api/'
         }],
         repo: 'lyoj-dev/lyoj-docs',
+        docsBranch: 'main/docs',
         sidebar: {
             '/api/': [
                 {
