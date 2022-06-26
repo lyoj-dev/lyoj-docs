@@ -20,7 +20,7 @@ POST /api/problem/create.php
 |    `hint`     | string | 非必要 |   题目提示    |                -                 |
 |    `tags`     | string | 非必要 |   题目标签    |         以 `,` 为分隔符          |
 |   `contest`   |  num   | 非必要 | 题目所属比赛  |       `0` 为不属于任何比赛       |
-| `difficulty`  |  num   | 非必要 |   题目难度    | 具体见 [题目难度选项](#题目难度) |
+| `difficulty`  |  num   | 非必要 |   题目难度    | 具体见 [题目难度选项](../others/difficulty) |
 
 **返回值**
 
@@ -37,4 +37,4 @@ POST /api/problem/create.php
 |    `cases`    | string | 题目样例 JSON |                -                 |
 |    `tags`     | string |   题目标签    |         以 `,` 为分隔符          |
 |   `contest`   |  num   | 题目所属比赛  |      `0` 表示不属于任何比赛      |
-| `difficulty`  |  num   |   题目难度    | 具体见 [题目难度选项](#题目难度) |
+| `difficulty`  |  num   |   题目难度    | 具体见 [题目难度选项](../others/difficulty) |

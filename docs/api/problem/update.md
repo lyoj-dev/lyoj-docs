@@ -20,7 +20,7 @@ POST /api/problem/update.php
 |        `hint`         | string | 非必要 |      题目提示       |                        为空表示不修改                        |
 |        `data`         | string | 非必要 | 题目测试点配置 JSON | 该 JSON 包含四个数组，分别为 `time`,`memory`,`score`,`subtask`，要求每个数组的大小必须与数组组数相同，否则会报错 |
 | `subtask_depenedence` | string | 非必要 |   题目子任务依赖    |                              -                               |
-|     `difficulty`      |  num   | 非必要 |      题目难度       |               具体见 [题目难度选项](#题目难度)               |
+|     `difficulty`      |  num   | 非必要 |      题目难度       |               具体见 [题目难度选项](../others/difficulty)               |
 |       `contest`       |  num   | 非必要 |    题目所属比赛     |                    `0` 表示不属于任何比赛                    |
 |        `tags`         | string | 非必要 |      题目标签       |                       以 `,` 为分隔符                        |
 |      `spj_type`       |  num   | 非必要 |      SPJ 类型       |                       `0` 为自定义 SPJ                       |
@@ -45,4 +45,4 @@ POST /api/problem/update.php
 |    `hint`     | string |   题目提示    |                -                 |
 |    `tags`     | string |   题目标签    |         以 `,` 为分隔符          |
 |   `contest`   |  num   | 题目所属比赛  |      `0` 表示不属于任何比赛      |
-| `difficulty`  |  num   |   题目难度    | 具体见 [题目难度选项](#题目难度) |
+| `difficulty`  |  num   |   题目难度    | 具体见 [题目难度选项](../others/difficulty) |

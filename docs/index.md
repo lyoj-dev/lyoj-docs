@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: Welcome to LYOJ Document Center.
 tagline: An Online Judge System
 actionText: 快速上手
-actionLink: /quick/
+actionLink: /guide/quick
 features:
 - title: C++ Powered Engine
   details: Use C++ as backend language. It can boost the speed that Judge System running.
